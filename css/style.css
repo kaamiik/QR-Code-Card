@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -13,14 +14,15 @@ html {
   box-sizing: inherit;
 }
 
-h1, p{
+h1,
+p {
   margin: 0;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
@@ -29,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  max-width: 20rem;
   min-height: 100%;
   border-radius: 20px;
   padding: 16px;
@@ -38,8 +40,7 @@ body {
 }
 
 img {
-  width: 288px;
-  height: 288px;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -59,7 +60,7 @@ img {
   margin-bottom: 40px;
 }
 
-.footer{ 
+.footer {
   position: absolute;
   bottom: 0;
   /* height: .5rem; */
